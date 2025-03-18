@@ -1,6 +1,6 @@
 # Ignore the target directory where Cargo builds the project
 */target
-
+/target
 # Ignore compiled binaries
 **/*.rs.bk
 
