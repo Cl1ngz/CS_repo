@@ -1,0 +1,8 @@
+# Ignore the target directory where Cargo builds the project
+*/target
+
+# Ignore compiled binaries
+**/*.rs.bk
+
+# Ignore Cargo.lock if it's a library (Cargo will create it automatically)
+Cargo.lock
